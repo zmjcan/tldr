@@ -31,7 +31,8 @@ function HomePage() {
           </div>
           <div className="input-group">
             <label htmlFor="summary">Summary</label>
-            <textarea className="input-text"
+            <textarea
+              className="input-text"
               id="summary"
               value={summary}
               readOnly
