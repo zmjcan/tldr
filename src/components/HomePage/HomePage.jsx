@@ -14,6 +14,7 @@ function HomePage() {
 
   return (
     <div className="container">
+      <img className="sticker" src="../../../src/assets/images/Sticker.svg" />
       <section className="card">
         <h1 className="title">TLDR</h1>
         <p className="subtitle">The summary you need... in seconds</p>
