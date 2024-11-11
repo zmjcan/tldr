@@ -43,6 +43,7 @@ Enter a URL in the input field and click on "Summarize it!".
 The summary will be displayed below.
 
 ### Backend Configuration
+Please download backend repo and run accordingly from link: https://github.com/zmjcan/tldr-server
 Ensure that the Flask backend is running on http://127.0.0.1:5000 to handle the API requests. For more information on setting up the backend, please refer to the backend documentation.
 
 ### License
