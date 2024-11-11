@@ -1,7 +1,7 @@
-// @use "../../styles/partials/typography" as *;
+@use "../../../src/styles/partials/typography" as *;
 
 .container {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,8 +9,15 @@
   background-color: #f2f2f2;
 }
 
+.sticker{
+  display:float;
+  margin-right:-22rem;  
+  margin-top:-40rem;
+  z-index:1;
+}
+
 .card {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   background: #fff;
   padding: 1.25rem;
   border-radius: 0.5rem;
@@ -21,51 +28,69 @@
 }
 
 .title {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2rem;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-decoration: line-through;
   margin-bottom: 10px;
 }
 
 .subtitle {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Hiragino Sans GB", "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   font-size: 1rem;
-  font-style: italic;
   margin-bottom: 1.25rem;
   color: #666;
 }
 
 .input-group {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-bottom: 1.25rem;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
+  padding-top:1rem;
+  padding-bottom: 1.25rem;
   resize: none;
+
+}
+
+input{
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 .input-group label {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family:  "Hiragino Sans GB","Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   display: block;
+  font-size:1rem;
   margin-bottom: 0.3rem;
-  font-weight: 600;
+  font-weight: 400;
+  width:100%;
+  padding-top:1rem;
+  padding-bottom:2rem;
+  border-bottom: 3px solid black;
+
 }
 
 .input-text {
-  color: #CDCDCD;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #cdcdcd;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   font-style: italic;
+  margin-top:1rem;
+  margin-bottom:1rem;
 }
 
 .input-group input,
 .input-group textarea {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   width: 80%;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   font-size: 1rem;
   resize: none;
+  padding-top:1rem;
+
 }
 
 .submit-btn {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   background-color: #007bff;
   color: #fff;
   padding: 1rem 2rem;
@@ -76,6 +101,6 @@
 }
 
 .submit-btn:hover {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Helvetica Neue", "Gill Sans MT", Arial, "Trebuchet MS", sans-serif;
   background-color: #0056b3;
 }
